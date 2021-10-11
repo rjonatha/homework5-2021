@@ -141,20 +141,15 @@ header{
 }
 
 /* You need to write some of your own selectors here */
-.clients{
-  grid-column: 2 / span 1;
-  grid-row: 4 / span 1;
-}
-
-.contact{
-  grid-column: 2 / span 1;
-  grid-row: 5 / span 1;
-}
-
 .clients-image{
   grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
+  grid-row: 4 / span 1;
+}
+
+.clients{
+  grid-column: 2 / span 1;
   grid-row: 4 / span 1;
 }
 
@@ -165,6 +160,10 @@ header{
   grid-row: 5 / span 1;
 }
 
+.contact{
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
 
 .text-block{
   background-color: rgba(255, 255, 255, .8);
